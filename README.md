@@ -3,6 +3,7 @@ The purpose of this project is to create a script, that allows anyone to create 
 
 ### Input
 ```sh
+  from htmlmkr import *
   x=HtmlFile()
   x.add_element("style", "p {color:blue;} .content{margin:50px;}")
   x.add_element("title", "my site")
